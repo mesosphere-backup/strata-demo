@@ -1,0 +1,17 @@
+{
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+	  "image": "mesosphere/strata-demo",
+      "network": "BRIDGE",
+      "portMappings": [
+        { "containerPort": 80, "hostPort": 0, "servicePort": 80, "protocol": "tcp" }
+      ]
+    }
+  },
+  "id": "strata",
+  "instances": 1,
+  "cpus": 0.5,
+  "mem": 256,
+  "uris": []
+}
