@@ -12,7 +12,6 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # curl -H 'Content-Type: application/json' -X PUT -d '{ "instances":1 }' http://104.154.73.141:8192/api/cluster/flexdown
-
 CURL="curl -H 'Content-Type: application/json' -X PUT -d '{ \"instances\":$1 }' http://$MASTER:8192/api/cluster/flexdown"
 echo $CURL
 eval $CURL
