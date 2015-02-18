@@ -9,9 +9,9 @@
       ]
     }
   },
-  "id": "strata",
+  "id": "web-server",
   "instances": 1,
   "cpus": 0.5,
-  "mem": 256,
+  "mem": 2048,
   "uris": []
 }
