@@ -7,4 +7,5 @@ if [ -z "$YARN_EXAMPLES" ]; then
     exit 1
 fi
 
+#yarn jar $YARN_EXAMPLES/hadoop-mapreduce-examples-2.5.1-mapr-1501.jar pi 16 1000
 yarn jar $YARN_EXAMPLES/hadoop-mapreduce-examples-2.5.1-mapr-1501.jar pi
